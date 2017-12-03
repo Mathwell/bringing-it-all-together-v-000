@@ -1,7 +1,7 @@
 class Dog
-  attr_accessor
+  attr_accessor :name, :breed
 
-  def create_table
+  def create_table(name:, breed:)
   end
 
 end
