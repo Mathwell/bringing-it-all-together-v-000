@@ -37,7 +37,7 @@ class Dog
   end
 
   def self.create(name)
-    dog=Dog.new()
+    dog=Dog.new
     dog.name=name
     dog.save
     dog
