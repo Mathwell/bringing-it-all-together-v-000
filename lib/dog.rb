@@ -53,4 +53,11 @@ class Dog
    end.first
   end
 
+  def self.new_from_db(row)
+    # create a new Student object given a row from the database
+    dog=create(row[1],row[2])
+    dog.id=row[0]
+    god
+  end
+
 end
