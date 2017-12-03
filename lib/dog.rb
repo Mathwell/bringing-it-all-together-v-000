@@ -57,7 +57,7 @@ class Dog
     # create a new Student object given a row from the database
     dog=create(row[1],row[2])
     dog.id=row[0]
-    god
+    dog
   end
 
 end
