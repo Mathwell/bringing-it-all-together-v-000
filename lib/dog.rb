@@ -5,7 +5,7 @@ class Dog
     @name, @breed=name,breed
   end
 
-  def self.create_table(name, breed)
+  def self.create_table
     sql = <<-SQL
       CREATE TABLE IF NOT EXISTS dogs (
       id INTEGER PRIMARY KEY,
